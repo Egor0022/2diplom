@@ -1,0 +1,76 @@
+@import "./reset";
+
+.background-img__one {
+    padding: 30px 0 0 42px;
+    background-image: url(/photo/background1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1921px;
+    height: 1079px;
+    
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    &-liner {
+        position: absolute;
+        width: 166px;
+        height: 20px;
+        background: linear-gradient(180deg, #018495 0%, #018394 90%);
+        opacity: 0.4;
+        top: 60px;
+        
+    }
+
+    &-wrapper {
+
+    }
+
+    &-logo {
+        display: flex;
+        text-align: center;
+        align-items: center;
+
+
+
+
+
+
+
+    &__img {}
+
+    &__txt {
+        color: white;
+        font-family: var(--second-family);
+        font-weight: 900;
+        font-size: 23px;
+        line-height: 81%;
+        letter-spacing: 0.01em;
+        text-transform: uppercase;
+        margin-top: 15px;
+    }
+}
+    &-items {
+        display: flex;
+        gap: 30px;
+        &-link {
+
+
+            &__list {  text-transform: uppercase;
+
+font-weight: 700;
+font-size: 18px;
+text-transform: uppercase;
+color: white;
+            }
+        }
+    }
+}
+
+
+.container {}
+
+.search-img {}
+
+.line-img {}
