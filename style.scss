@@ -497,69 +497,136 @@
     /* 116.667% */
     letter-spacing: 0.386px;
 }
-.background-four{
-    background-image: url(/photo/background4.png);
-    padding:249px 648px 257px 658px;
+
+.background-four {
+    background: url(/photo/background4.png) no-repeat center/cover;
+    padding: 249px 648px 257px 658px;
     background-color: white;
-    width:100%;
+    width: 100%;
     height: 794px;
 
-// background-image: url(/photo/background4.png)   ;
-background-repeat: no-repeat;
-&__section{
-    text-align: center;
+
+
+    &__section {
+        text-align: center;
+    }
+
+    &__txt {
+        color: #000;
+        text-align: center;
+        font-feature-settings: 'clig' off, 'liga' off;
+
+        /* H3 */
+        font-family: "DM Sans";
+        font-size: 42px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 50px;
+        /* 119.048% */
+        margin-bottom: 32px;
+
+    }
+
+    &__lorem {
+        color: var(--Paragraph-Dark, #6F7787);
+        text-align: center;
+        font-feature-settings: 'clig' off, 'liga' off;
+
+        /* Paragraph Light */
+        font-family: "DM Sans";
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 28px;
+        /* 155.556% */
+        letter-spacing: 0.5px;
+        margin-bottom: 36px;
+    }
+
+    &__button {
+        color: var(--Neutral-White, #FFF);
+        text-align: center;
+
+        /* CTA */
+        font-family: "DM Sans";
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 150%;
+        /* 27px */
+        width: 210px;
+        height: 64px;
+        padding: 16px 24px;
+        justify-content: center;
+        align-items: center;
+        gap: 24px;
+        flex-shrink: 0;
+        border-radius: 122px;
+        background: #DD2242;
+    }
+
 }
-&__txt{
-    color: #000;
-    text-align: center;
-    font-feature-settings: 'clig' off, 'liga' off;
+
+.section-five {
+    background: url(/photo/background5.png) no-repeat center/cover;
+    width: 100%;
+    height: 1476px;
+    padding: 141px 285px 225px 360px;
+   
+
+    &__life {
+
+
+        text-align: center;
+
+        height: 142.643px;
+        flex-shrink: 0;
+        color: var(--Colors-White, #FFF);
+
+
+        margin-bottom: 67px;
+        font-size: 42px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 50px;
+
+        &-youtube {
+            width: 1056px;
+            height: 594px;
+            flex-shrink: 0;
+
+            &-button {
+                width: 96px;
+                height: 96.01px;
+                flex-shrink: 0;
+                border-radius: 100px;
+                background: var(--Action-Third, #E93A7D);
+                position: absolute;
+                // z-index: ;
+                left: 50%;
+
+            }
+        }
+    }
+}
+.video-info{
+    margin-top: 125px;
+    display: flex;
+    justify-content: center;
+    &__block{
+        display: flex;
+    }
+}
+.txt-info{
     
-    /* H3 */
-    font-family: "DM Sans";
-    font-size: 42px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 50px; /* 119.048% */
-    margin-bottom: 32px;
-
 }
-&__lorem{
-    color: var(--Paragraph-Dark, #6F7787);
-text-align: center;
-font-feature-settings: 'clig' off, 'liga' off;
+.the-country{
+    color: var(--Colors-White, #FFF);
 
-/* Paragraph Light */
+/* CTA */
 font-family: "DM Sans";
 font-size: 18px;
 font-style: normal;
-font-weight: 400;
-line-height: 28px; /* 155.556% */
-letter-spacing: 0.5px;
-margin-bottom: 36px;
-}
-&__button{
-    color: var(--Neutral-White, #FFF);
-    text-align: center;
-    
-    /* CTA */
-    font-family: "DM Sans";
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 150%; /* 27px */
-width: 210px;
-height: 64px;
-padding: 16px 24px;
-justify-content: center;
-align-items: center;
-gap: 24px;
-flex-shrink: 0;
-border-radius: 122px;
-background: #DD2242;
-}
-
-}
-.section-five{
-
-
+font-weight: 700;
+line-height: 150%; /* 27px */
 }
