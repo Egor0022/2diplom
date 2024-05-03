@@ -768,4 +768,18 @@ html {
     width: 375px;
     height: 1104px;
   }
+  .background-img__one {
+    width: 900px;
+    display: block;
+  }
+  .background-img__two {
+    width: 800px;
+    display: block;
+  }
+  .nav-items {
+    display: none;
+  }
+  .block-scrol__left {
+    display: none;
+  }
 }
