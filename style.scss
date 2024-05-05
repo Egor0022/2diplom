@@ -1,5 +1,7 @@
 @import "./reset";
-
+button{
+    cursor: pointer;
+}
 .background-img__one {
     padding: 30px 0 0 42px;
     background: url(/photo/background1.png) no-repeat center/cover;
@@ -21,7 +23,9 @@
 
     }
 
-    &-wrapper {}
+    &-wrapper {
+
+    }
 
     &-logo {
         display: flex;
@@ -248,7 +252,7 @@
 
 .review-youtube {
     position: relative;
-    background-image: url(/photo/hussan-amir-h0DK5BIGBEg-unsplash\ 2\ \(6\).svg);
+    background: url(/photo/hussan-amir-h0DK5BIGBEg-unsplash\ 2\ \(6\).svg);
     width: 417.217px;
     height: 254px;
     flex-shrink: 0;
@@ -459,7 +463,11 @@
     gap: 450PX;
     margin-top: 35PX;
 }
-
+.moto-youtube{
+    margin:0 45px 0 85px;
+     width: 249.419px;
+     height: 165.79px;
+}
 .lorem-ipsum__dolar {
     width: 340.611px;
     height: 70.229px;
@@ -755,7 +763,18 @@
             line-height: 41.081px;
             /* 155.556% */
             margin-bottom: 25px;
+           &-travelling{
+            color: var(--Blue---Background, #010A20);
 
+            /* H4 */
+            font-family: "DM Sans";
+            font-size: 26.409px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 41.081px;
+            /* 155.556% */
+            margin-bottom: 25px;
+           }
         }
     }
 }
@@ -785,7 +804,7 @@
     line-height: 38.146px;
     /* 144.444% */
     width: 50px;
-    height: 100px;
+    height: 50px;
     padding: 5px 13px;
     border-radius: 30px;
     background: #DD2242;
@@ -848,31 +867,390 @@ margin-left: 100px;
 .button-scroll{
 position: absolute;
 left: 90%;
-top: 897%;
+top: 896%;
 cursor: pointer;
 
 }
 html{
     scroll-behavior: smooth ;
+
 }
+.background-img__two-img__right-mobile{
+    display: none;
+}
+.slider-img__mobile{
+    display: none;
+}
+.mobyle-galery-none{
+    display: block;
+}
+.mobyle-galery{
+    display: none;
+}
+.lorem-ipsum-dolor__set{
+    display: none;
+}
+.show-more{
+    display: none;
+}
+// .
 @media (max-width:375px){
-    .nav{
-        justify-content: space-between;
-        width: 375px;
-        height: 1104px;
-    }
     .background-img__one{
-        width:900px;
-        display: block;
+padding: 48px 31px 40px 30px;
+max-width: 375px;
     }
-    .background-img__two{
-        width:800px;
-        display: block;
-    }
-    .nav-items{
-        display: none;
-    }
-    .block-scrol__left{
-        display: none;
-    }
+.nav-items{
+    display: none;
+}
+.block-scrol__left{
+    display: none;
+}
+.explore-logo{
+    margin-left: -450px;
+    color: #FFF;
+font-family: Roboto;
+font-size: 58.152px;
+font-style: normal;
+font-weight: 900;
+line-height: 62.997px; /* 108.333% */
+text-transform: uppercase;
+}
+.start-travelling{
+    margin-left:-450px ;
+
+}
+.reviews-info{
+    display: block;
+    width: 314px;
+    height: 472px;
+    margin-left: -470px;
+    margin-top: 54px;
+}
+.review-youtube{
+
+}
+.background-img__two{
+    height: 1400px;
+    padding: 40px 31px  40px 30px;
+}
+.background-img__two-img {
+    width: 290px;
+    height: 223px;
+}
+.background-img__two-img__right{
+    width: 314px;
+    height: 200px;
+}
+.background-img__two-box{
+display: block;
+}
+
+.background-img__two-img__right{
+    display: none;
+}
+.background-img__two-img__right-mobile{
+    display: block;
+    width: 314px;
+height: 223.843px;
+flex-shrink: 0;
+}
+.background-img__two-box-items{
+    margin-top: -0px;
+}
+.background-img__two-img__right-mobile{
+margin-top: -370px;
+margin-left: -10px;
+}
+.background-img__two-walkways{
+    width: 300px;
+height: 162.886px;
+flex-shrink: 0;
+}
+.background-img__two-lorem{
+    width: 290px;
+height: 115.919px;
+flex-shrink: 0;
+}
+.background-img__two-button {
+    width: 310px;
+}
+.slider-img{
+    display: none;
+}
+.slider-img__mobile{
+  display: block;
+}
+.background-img__thre-txt{
+    margin-left: 25px;
+    display: flex;
+width: 314px;
+height: 112px;
+flex-direction: column;
+justify-content: center;
+flex-shrink: 0;
+color: var(--Blue---Background, #010A20);
+text-align: center;
+
+/* Mobile H1 */
+font-family: "DM Sans";
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: 46px; /* 115% */
+}
+.background-img__thre{
+    margin-top: -16px;
+}
+.slider{
+    gap: 9px;
+}
+.slider-circle{
+    margin-left: 90px;
+}
+.background-img__thre-footer{
+    display: block;
+    width: 375px;
+    height: 1155px;
+    margin-top: 1180px;
+    padding: 72px 32px 69px 30px;
+}
+.the-numbers{
+    margin-left: -10px;
+    margin-top: -50px;
+    line-height: 60px;
+    font-size: 40px;
+    width: 280px;
+height: 52px;
+
+}
+.lorem-ipsum__thre{
+    margin-top: 90px;
+    margin-left: -3px;
+    width: 314px;
+height: 167px;
+flex-shrink: 0;
+}
+.number-and-lorem{
+    display: block;
+
+}
+.number-and-lorem__nmobile{
+    margin-top: 100px;
+}
+.background-four{
+    background: none;
+    padding: 171px 32px 116px 29px;
+}
+.background-four__button{
+    width: 300px;
+}
+.section-five{
+    padding: 83PX 30PX 40PX 30PX;
+}
+.section-five__life-youtube{
+    width: 314px;
+height: 192px;
+flex-shrink: 0;
+}
+.video-info{
+    display: block;
+}
+.video-info__block{
+    display: block;
+
+}
+.lorem-ipsum__dolar{
+    color: var(--Colors-White, #FFF);
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+    
+    /* Mobile Paragraph 1 */
+    font-family: "DM Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+    letter-spacing: 0.5px;
+    width: 312.718px;
+height: 100.643px;
+flex-shrink: 0;
+}
+.txt-info{
+    display: block;
+
+    text-align:center ;
+
+}
+.the-country{
+    margin-bottom: 20px;
+}
+.MOBILE-YOUTUBE{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin-left: 40px;
+    margin-bottom: 40px;
+}
+.section-five__life{
+    margin-bottom: 250px;
+}
+.mobyle-galery-none{
+    display: none;
+}
+.mobyle-galery{
+    display: block;
+}
+.big-photo__youtube{
+    width: 151px;
+height: 217px;
+flex-shrink: 0;
+}
+.mini-photo__youtube{
+    width: 151px;
+height: 86px;
+flex-shrink: 0;
+}
+.photo__youtube{
+    width: 150px;
+height: 153px;
+flex-shrink: 0;
+margin-top: 15px;
+}
+.section-six{
+    padding: 34px 5px 40px 5px;
+}
+.photo-gallery{
+    margin-left: 60px;
+}
+.section-six__photo-gallery{
+    display: flex;
+width: 314px;
+height: 52px;
+flex-direction: column;
+justify-content: center;
+
+color: var(--Blue---Background, #010A20);
+text-align: center;
+
+/* Mobile H1 */
+font-family: "DM Sans";
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: 46px; /* 115% */
+margin-left: 25px;
+}
+.lorem-ipsum__six{
+    margin-top: 13px;
+}
+.section-six{
+    width: 375px;
+height: 752px;
+
+}
+.section-seven{
+    padding: 29px 58px 73px 57px;
+    width: 375px;
+    height: 1150px;
+}
+.section-seven__getting{
+    color: #010A20;
+text-align: center;
+
+/* Mobile H1 */
+font-family: "DM Sans";
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: 46px; /* 115% */
+margin-left: -170px;
+margin-bottom: 45px;
+}
+.section-seven__main{
+    display: block;
+}
+.number-info{
+    margin-bottom: 30px;
+    margin-left: 110px;
+    margin-top: 32px;
+}
+.moto-youtube{
+    margin: 37px 0 97px 0;
+}
+.lorem-seven{
+    display: none;
+}
+.lorem-ipsum-dolor__set{
+    display: block;
+    color: var(--Light-Text, rgba(21, 20, 57, 0.40));
+text-align: center;
+font-feature-settings: 'clig' off, 'liga' off;
+
+/* Mobile Paragraph 1 */
+font-family: "DM Sans";
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 150% */
+letter-spacing: 0.5px;
+}
+.show-more{
+    display: block;
+    color: var(--Main-Red, #DD2242);
+    font-feature-settings: 'clig' off, 'liga' off;
+    text-align: center;
+    /* Mobile Paragraph 1 */
+    font-family: "DM Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+}
+.section-seven__main-golo-travelling{
+    display: none;
+}
+.section-seven__main-golo{
+    color: var(--Blue---Background, #010A20);
+text-align: center;
+
+/* Mobile H2 */
+font-family: "DM Sans";
+font-size: 22px;
+font-style: normal;
+font-weight: 700;
+line-height: 150%; /* 33px */
+margin: 0;
+}
+.section-seven__button{
+    display: none;
+}
+.footer{
+    width: 375px;
+height: 723px;
+display: block;
+padding: 146px 86px 84px 85px;
+margin-bottom: 36px;
+}
+.footer-items{
+    display: block;
+
+}
+.footer-items-link__list{
+    margin-top: 36px;
+    margin-bottom: 36px;
+}
+.internet-info{
+    margin-left: 25px;
+}
+.copyright{
+    margin-top:  36px;
+    margin-left: 25px;
+}
+.button-scroll{
+    position: absolute;
+    left: 35%;
+    top: 790%;
+    cursor: pointer;
+}
 }
